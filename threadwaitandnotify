@@ -1,0 +1,24 @@
+thread wait()and nodify()
+
+class MyData{
+    synchronized void waitMethod(){
+        System.out.println("Before Wating");
+        try{
+            wait();
+        }
+        catch(Exception e){
+ 
+        }
+ 
+        System.out.println("Resumed");
+    }
+    synchronized void notifyMethod(){
+        System.out.println("NOTIFY IS TRIGGERED");
+        try{
+            notifyAll();
+        }
+      catch(Exception e){
+ 
+        }
+    }
+}
