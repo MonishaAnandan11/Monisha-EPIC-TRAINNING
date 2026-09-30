@@ -1,4 +1,4 @@
-2D array
+
 
 import java.util.*;
 public class Main
